@@ -12,6 +12,16 @@
 		transition: all 0.4s;
 		&--active {
 			position: absolute;
+			left: 5px;
+		}
+
+	}
+}
+@media only screen and (max-width: 479px) {
+	.navL {
+		width: 70%;
+		transition: all 0.4s;
+		&--active {
 			left: 25px;
 		}
 

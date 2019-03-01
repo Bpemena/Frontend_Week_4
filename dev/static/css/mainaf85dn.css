@@ -669,6 +669,17 @@ body {
   }
   .navL--active {
     position: absolute;
+    left: 5px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .navL {
+    width: 70%;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .navL--active {
     left: 25px;
   }
 }
@@ -700,6 +711,7 @@ body {
   .navR {
     right: -245px;
     top: 45px;
+    width: 70%;
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
   }
@@ -872,7 +884,7 @@ body {
 }
 
 .shout__text {
-  width: 660px;
+  width: 66%;
   -ms-flex-item-align: center;
       align-self: center;
   font-size: 32px;
@@ -881,28 +893,24 @@ body {
 
 @media only screen and (max-width: 1023px) {
   .shout__text {
-    width: 440px;
     font-size: 22px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .shout__text {
-    width: 320px;
     font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 599px) {
   .shout__text {
-    width: 260px;
     font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 599px) {
   .shout__text {
-    width: 160px;
     font-size: 10px;
   }
 }
@@ -1279,16 +1287,25 @@ body {
   height: 60px;
 }
 
+.contacts__info {
+  color: #7c7c7c;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .contacts__phone {
   color: #7c7c7c;
   font-size: 12px;
   line-height: 1.6;
 }
 
-.contacts__info {
-  color: #7c7c7c;
-  font-size: 12px;
-  line-height: 1.6;
+.contacts__phone a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contacts__phone a:hover {
+  text-decoration: underline;
 }
 
 .contacts__title {
@@ -1467,15 +1484,25 @@ body {
   letter-spacing: 2px;
 }
 
+.logo__topT span {
+  font-size: 46px;
+}
+
 @media only screen and (max-width: 1023px) {
   .logo__topT {
     font-size: 30px;
+  }
+  .logo__topT span {
+    font-size: 40px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .logo__topT {
     font-size: 20px;
+  }
+  .logo__topT span {
+    font-size: 30px;
   }
 }
 
