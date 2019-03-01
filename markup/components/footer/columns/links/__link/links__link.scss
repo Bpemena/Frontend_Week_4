@@ -1,0 +1,14 @@
+.links__link {
+	display: block;
+	text-decoration: none;
+	color: #1f232c;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: solid 1px rgba(196, 196, 196, 1);
+	transition: all 0.4s;
+	&:hover {
+		padding-left: 10px;
+		background-color: rgba(0,0,0,0.05);
+	}
+}

@@ -1,0 +1,15 @@
+.newsletter__submit {
+	font-size: 13px;
+	color: #f5f4f2;
+	background-color: #1f232c;
+	width: 80px;
+	height: 31px;
+	border: none;
+	border-radius: 5px;
+	transition: all 0.4s;
+	&:hover {
+		background-color: #f5f4f2;
+		color: #1f232c;
+		cursor: pointer;
+	}
+}

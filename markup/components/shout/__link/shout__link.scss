@@ -1,0 +1,18 @@
+.shout__link {
+	width: 279px;
+	height: 58px;
+	background-color: rgba(31, 35, 44, 1);
+	color: #e6e6e6;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 58px;
+	align-self: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 26px;
+	transition: all 0.4s;
+	&:hover {
+		background-color: rgba(31, 35, 44, 0.6);
+		color: #fff;
+	}
+}

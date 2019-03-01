@@ -1,0 +1,10 @@
+.blog__link {
+	font-size: 12px;
+	color: #1f232c;
+	text-decoration: none;
+	float: right;
+	transition: border-bottom 0.6s;
+	&:hover {
+		border-bottom: solid 1px #000 ;
+	}
+}
