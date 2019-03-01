@@ -668,6 +668,7 @@ body {
     transition: all 0.4s;
   }
   .navL--active {
+    position: absolute;
     left: 25px;
   }
 }
@@ -690,6 +691,7 @@ body {
     transition: all 0.4s;
   }
   .navR--active {
+    position: absolute;
     right: 5px;
   }
 }
@@ -722,6 +724,7 @@ body {
     transition: all 0.4s;
   }
   .searchMobile--active {
+    position: absolute;
     right: 5px;
   }
 }
@@ -1276,13 +1279,13 @@ body {
   height: 60px;
 }
 
-.contacts__info {
+.contacts__phone {
   color: #7c7c7c;
   font-size: 12px;
   line-height: 1.6;
 }
 
-.contacts__phone {
+.contacts__info {
   color: #7c7c7c;
   font-size: 12px;
   line-height: 1.6;

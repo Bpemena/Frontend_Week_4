@@ -11,6 +11,7 @@
 		top: 30px;
 		transition: all 0.4s;
 		&--active {
+			position: absolute;
 			left: 25px;
 		}
 
