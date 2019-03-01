@@ -3,3 +3,13 @@
 	right: 20px;
 	top: 30px;
 }
+@media only screen and (max-width: 1023px) {
+	.search {
+		top: 20px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.search {
+		top: 10px;
+	}
+}

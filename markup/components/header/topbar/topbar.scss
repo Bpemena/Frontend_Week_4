@@ -4,3 +4,18 @@
 	background-color: rgba(31, 34, 44, 0.6);
 	position: relative;
 }
+@media only screen and (max-width: 1023px) {
+	.topbar {
+		height: 95px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.topbar {
+		height: 75px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.topbar {
+		display: none;
+	}
+}

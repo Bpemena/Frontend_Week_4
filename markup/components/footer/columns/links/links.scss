@@ -1,3 +1,13 @@
 .links {
 	width: map-get($footer, width);
 }
+@media only screen and (max-width: 1023px) {
+	.links {
+		width: 48%;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.links {
+		width: 100%;
+	}
+}

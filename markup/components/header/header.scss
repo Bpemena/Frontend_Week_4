@@ -3,4 +3,32 @@
 	height: 500px;
 	background-image: url('%=static=%assets/header/bg.png');
 	background-repeat: no-repeat;
+	background-position: bottom center;
+	position: relative;
+}
+@media only screen and (max-width: 1023px) {
+	.header {
+		height: 440px;
+		background-position: 50% 15%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.header {
+		height: 360px;
+		background-position: 50% 40%;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.header {
+		height: 230px;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.header {
+		height: 160px;
+		background-size: 100%;
+		background-position: 50% 50%;
+	}
 }

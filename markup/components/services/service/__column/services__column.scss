@@ -1,4 +1,9 @@
 .service__column {
-	width: 180px;
+	width: 100%;
 	height: 100%;
+}
+@media only screen and (max-width: 1023px) {
+	.service__column {
+		margin: 0 auto;
+	}
 }

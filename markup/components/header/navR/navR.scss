@@ -1,0 +1,27 @@
+.navR {
+	position: fixed;
+	width: 50%;
+	display: none;
+	z-index: 10;
+}
+@media only screen and (max-width: 599px) {
+	.navR {
+		display: flex;
+		right: -245px;
+		top: 30px;
+		transition: all 0.4s;
+		&--active {
+			right: 5px;
+		}
+	}
+}
+@media only screen and (max-width: 479px) {
+	.navR {
+		right: -245px;
+		top: 45px;
+		transition: all 0.4s;
+		&--active {
+			right: 25px;
+		}
+	}
+}

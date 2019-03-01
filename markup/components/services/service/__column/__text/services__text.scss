@@ -3,3 +3,9 @@
   	font-size: 13px;
   	color: #979797
 }
+@media only screen and (max-width: 599px) {
+	.service__text {
+		font-size: 10px;
+		line-height: 1;
+	}
+}

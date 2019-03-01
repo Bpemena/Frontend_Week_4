@@ -7,3 +7,21 @@
 	display: flex;
 	justify-content: space-between;
 }
+@media only screen and (max-width: 1023px) {
+	.shout {
+		height: 120px;
+		border-bottom: solid 4px #dadada
+	}
+}
+@media only screen and (max-width: 767px) {
+	.shout {
+		height: 80px;
+		padding: 0 5px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.shout {
+		height: 60px;
+		border-bottom: solid 2px #dadada
+	}
+}

@@ -1,0 +1,19 @@
+.searchMobile__link {
+	position: absolute;
+	text-decoration: none;
+	right: 7px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 50%;
+	transition: background-color 0.4s;
+	color: #fff;
+	font-size: 8px;
+	line-height: 18px;
+	&:hover {
+		background-color: rgba(17, 19, 26, 1);
+	}
+
+}

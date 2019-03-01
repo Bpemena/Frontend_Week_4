@@ -1,3 +1,16 @@
 .service__image {
 	margin-right: 20px;
+	max-height: 100px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.service__image {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.service__image {
+		width: 70px;
+		margin-right: 0;
+	}
 }

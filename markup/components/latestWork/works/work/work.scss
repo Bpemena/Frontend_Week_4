@@ -3,4 +3,17 @@
 	margin-bottom: 30px;
 	padding-bottom: 14px;
 	background-color: #eeeeee;
+	text-align: center;
+}
+@media only screen and (max-width: 1023px) {
+	.work {
+		width: 32%;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.work {
+		width: 48%;
+		margin-bottom: 20px;
+	}
 }

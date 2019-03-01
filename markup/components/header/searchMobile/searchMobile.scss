@@ -1,0 +1,17 @@
+.searchMobile {
+	display: none;
+	position: fixed;
+	right: 5px;
+	top: 5px;
+	z-index: 10;
+}
+@media only screen and (max-width: 599px) {
+	.searchMobile {
+		display: block;
+		right: -210px;
+		transition: all 0.4s;
+		&--active {
+			right: 5px;
+		}
+	}
+}

@@ -4,3 +4,9 @@
 	color: #979797;
 	margin-top: 6px;
 }
+@media only screen and (max-width: 599px) {
+	.work__text {
+		margin-top: 3px;
+		font-size: 10px;
+	}
+}

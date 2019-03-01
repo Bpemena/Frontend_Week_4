@@ -1,6 +1,21 @@
 .service {
 	width: 300px;
-	height: 100px;
+	min-height: 100px;
+	height: auto;
 	display: flex;
 	justify-content: space-between;
+}
+@media only screen and (max-width: 1023px) {
+	.service {
+		width: 32%;
+		display: block;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.service {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
 }

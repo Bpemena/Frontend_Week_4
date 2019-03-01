@@ -4,3 +4,8 @@
 	top: 50%;
 	transform: translateY(-50%);
 }
+@media only screen and (max-width: 599px) {
+	.logo {
+		display: none;
+	}
+}

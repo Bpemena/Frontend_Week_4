@@ -16,3 +16,43 @@
 		color: #fff;
 	}
 }
+@media only screen and (max-width: 1023px) {
+	.shout__link {
+		width: 209px;
+		height: 50px;
+		line-height: 50px;
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.shout__link {
+		width: 180px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.shout__link {
+		width: 180px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 599px) {
+	.shout__link {
+		width: 150px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 479px) {
+	.shout__link {
+		width: 120px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+}
